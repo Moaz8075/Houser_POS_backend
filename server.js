@@ -40,6 +40,6 @@ app.use(errorHandler);
 
 // Start server
 const PORT = process.env.PORT || 5000;
-// app.listen(PORT, () => {
-//   console.log(`✅ Server running on http://localhost:${PORT} in ${process.env.NODE_ENV} mode`);
-// });
+app.listen(PORT, () => {
+  console.log(`✅ Server running on http://localhost:${PORT} in ${process.env.NODE_ENV} mode`);
+});
